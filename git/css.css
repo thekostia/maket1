@@ -1,0 +1,109 @@
+h1 {color: black;
+	font-size: 50px;
+	font-weight: 500;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-left:5%;
+}
+body{background-color: #F5F5F5;}
+
+.main {background-color: white;
+		position: absolute;
+		right:10%;
+		left:10%;
+		box-shadow: 0 0 5px 2px #DCDCDC;
+	}
+
+
+ul.horizont {float: left;
+			width: 100%;
+			margin-top: 5%;
+			 margin-left: 5%;
+			 margin-right: 5%;
+			 font-size:0;
+			}	
+
+ul.horizont li {float: left;
+				width:10%;
+				display: inline-block;
+				background: linear-gradient(to top, #3B3B3B, #808080);
+    			padding: 15px;
+   				box-shadow: 0 0 0px 0px #DCDCDC; /*на будущее разобраться с тенью внутри*/
+}
+
+
+
+
+ul.horizont li a {	float: left;
+					font-size:20px;
+					padding:10px;
+					color: white;
+					text-decoration: none;
+					font-family: sans-serif;
+				}
+
+ul.horizont > li > a:hover {
+    background-color: #363636;
+}
+.side {float:left;
+		margin-left:5%;
+		margin-top:5%;
+		font-size:0;
+}
+
+ul.side2 {font-size:20px;
+			font-family: sans-serif;
+		}
+
+ul.side2 li {border: 1px solid #B3B3B3;
+    		text-align: left;
+    		padding:10px;
+    		width:165%;
+    		box-shadow: 0 0 1px 1px #DCDCDC;
+    	}
+
+ ul.side2 li a {text-decoration: none;
+    		font-family: sans-serif;
+    		color: gray;
+}
+
+ul.side2 > li > a:hover {
+    background-color: #F5F5F5;
+}
+ .img {float:right;
+ 		margin-right:5%;
+ 		margin-top:5%;
+ 		margin-left:5%;
+ 		border: 1px solid #B3B3B3;
+ 		box-shadow: 0 0 1px 1px #DCDCDC;
+
+ }
+
+ .text {float:right;
+ 		width:60%;
+ 		margin-right:5%;
+ 		margin-top:5%;
+ 		margin-left:5%;
+
+ }
+
+ .text p {font-size:20px;
+ }
+
+
+ul.bot {display: inline-block;
+		margin:5%;
+		font-size:0;
+		}	
+
+ul.bot li {display: inline-block;
+			background: #E6E3E3;
+    		padding: 15px;
+   			box-shadow: 0 0 0px 0px #DCDCDC; /*на будущее разобраться с тенью внутри*/
+}
+
+ul.bot li a {font-size:20px;
+			color:black;
+			text-decoration: none;
+			font-family: sans-serif;
+			}
